@@ -1,0 +1,104 @@
+body{
+    /* background-color: lightgray; */
+    background-image: linear-gradient(to right,purple,grey,white);
+}
+::placeholder{
+   color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 20px;
+    font-size: 25px;
+}
+#heading{
+    font-size: 30PX ;
+    text-align: center;
+    background-color: yellow;
+}
+#inp8{
+    padding-left: 50px;
+    width: 450px;
+}
+
+
+#instruction{
+    margin-top: 50px;
+    margin-left:350px ;
+}
+button{
+    border: 5px solid black;
+    margin: 50px;
+    font-size: 30px;
+    border-radius: 20px;
+    width: 500px;
+    background-image:linear-gradient(to left,orange,white,red);
+}
+button:hover{
+    border: solid bisque;
+    background-image: linear-gradient(to left,lightblue,black,grey);
+    color: white;        
+}
+li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-size: 25px;
+    color:solid navy;
+}
+select:hover{
+    background-image: linear-gradient(to left,lightblue,white,grey);    
+}
+select{
+   padding-left: 50px;
+    background-image:linear-gradient(to left,orange,white,red);
+    margin: 8px;
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 39px;
+    width: 505px;
+    font-size: 25PX;
+    font-family: Arial,Helvetica, sans-serif;
+    
+}
+#mainForm{
+    margin-left: 200px;
+    display: flex;
+    flex-direction: row;
+}
+label{
+    color: lightgray;
+    margin: 8px;
+    font-size: 31px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input:hover{
+ background-image: linear-gradient(to left,lightblue,white,grey);    
+
+} 
+input{
+    padding-left: 60px;
+    background-image:linear-gradient(to left,orange,white,red);
+    margin: 8px;
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 35px;
+    width: 500px;
+    font-size: 25PX;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#input{
+    display: flex;
+    flex-direction: column;
+}
+
+#questions{
+ 
+    display: flex;
+    flex-direction: column;
+}
+#inp14 { 
+    margin-left: 80px;
+    background-color: aqua !important;
+    text-decoration: none;
+    padding: 0;
+    height: 35px;
+    width: 350px;
+}
